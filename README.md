@@ -7,7 +7,10 @@
 - [VsCode](https://code.visualstudio.com/)
 - [ReactNative](https://reactnative.dev/docs/environment-setup)
 - [Expo](https://expo.dev/)
+- [Expo Fonts](https://docs.expo.dev/guides/using-custom-fonts/)
 - [NativeBase](https://nativebase.io/)
+- [SVG Transform](https://github.com/kristerkari/react-native-svg-transformer)
+- [PhosphorIcons](https://github.com/duongdev/phosphor-react-native)
 
 ## Como utilizar :runner:
 
