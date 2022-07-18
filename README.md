@@ -11,6 +11,7 @@
 
 ## Como utilizar :runner:
 
-- Clocar o repositório
+- Clonar o repositório
 - Na pasta do projeto instalar as dependências com o comando npm install
-- Depois rodar a aplicação com o expo start
+- Colocar o cabo usb do seu celular conectado ao computador com a opção desenvolvedor ativada
+- Depois rodar a aplicação com o comando expo start
