@@ -6,6 +6,7 @@
 
 - [VsCode](https://code.visualstudio.com/)
 - [ReactNative](https://reactnative.dev/docs/environment-setup)
+- [React Navigation](https://reactnavigation.org/)
 - [Expo](https://expo.dev/)
 - [Expo Fonts](https://docs.expo.dev/guides/using-custom-fonts/)
 - [NativeBase](https://nativebase.io/)
