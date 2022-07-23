@@ -16,6 +16,8 @@ import { useState } from "react";
 import { Button } from "../components/Button";
 import { ChatTeardropText } from "phosphor-react-native";
 import { useNavigation } from "@react-navigation/native";
+import { Alert } from "react-native";
+import auth from "@react-native-firebase/auth";
 
 export function Home() {
   const [statusSelected, setStatusSelected] = useState<"open" | "closed">(
@@ -40,6 +42,15 @@ export function Home() {
     navigation.navigate("details", { orderId });
   }
 
+  function handlerLogout() {
+    auth()
+      .signOut()
+      .catch((error) => {
+        console.log(error);
+        return Alert.alert("Sair", "Nãofoi possível sair");
+      });
+  }
+
   return (
     <VStack flex={1} pb={6} bg="gray.700">
       <HStack
@@ -52,7 +63,10 @@ export function Home() {
         px={6}
       >
         <Logo />
-        <IconButton icon={<SignOut size={26} color={colors.gray[300]} />} />
+        <IconButton
+          icon={<SignOut size={26} color={colors.gray[300]} />}
+          onPress={handlerLogout}
+        />
       </HStack>
       <VStack flex={1} px={6}>
         <HStack

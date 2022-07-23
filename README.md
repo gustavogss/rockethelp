@@ -12,6 +12,9 @@
 - [NativeBase](https://nativebase.io/)
 - [SVG Transform](https://github.com/kristerkari/react-native-svg-transformer)
 - [PhosphorIcons](https://github.com/duongdev/phosphor-react-native)
+- [RNFirebase](https://rnfirebase.io/)
+- [Cloud Firestore](https://rnfirebase.io/firestore/usage)
+- [Authentication Firebase](https://rnfirebase.io/auth/usage)
 
 ## Como utilizar :runner:
 
