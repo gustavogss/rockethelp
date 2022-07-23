@@ -23,6 +23,6 @@
 - Colocar o cabo usb do seu celular conectado ao computador com a opção desenvolvedor ativada
 - Depois rodar a aplicação com o comando expo run:android
 
-## Aplicativo :phone:
+## Aplicativo :iphone:
 
 ![Aplicativo](./assets/rockt.png)
