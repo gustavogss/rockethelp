@@ -1,6 +1,6 @@
 # Projeto :rocket:
 
-- Aplicativo desenvolvido durante a semana ignite lab da Rocketseat
+- Aplicativo para gerenciar em tempo real solicitações de manutenção e suporte a equipamentos
 
 ## Tecnologias e Ferramentas utilizadas :robot:
 
